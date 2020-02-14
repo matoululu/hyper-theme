@@ -1,0 +1,6 @@
+{% assign stack = page.stack | split: ',' %}
+<ul>
+  {% for language in stack %}
+    <li>{{ language }}</li>
+  {% endfor %}
+</ul>

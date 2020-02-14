@@ -1,0 +1,23 @@
+title: Hyper
+author: Matou.io
+email: hello@matou.io
+version: 1
+description: > #
+  Hyper theme by Matou.io
+
+date_format: '%b %-d, %Y'
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+  posts:
+    output: true
+    permalink: /posts/:path/
+
+plugins:
+  - jekyll-seo-tag
+
+sass:
+    sass_dir: _sass
+    style: compact

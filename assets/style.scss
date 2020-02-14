@@ -1,0 +1,27 @@
+---
+---
+
+/* Imports
+============================================ */
+
+@import 'normalize';
+@import 'mixins';
+@import 'helpers';
+
+/* Starter CSS - Delete if desired
+============================================ */
+
+.container {
+  margin: 0px auto;
+  max-width: 900px;
+  width: calc(100% - 40px);
+}
+
+main { padding: 20px 0; }
+
+h2 { margin-top: 40px; }
+
+ul { margin-top: 20px; }
+
+/* Your CSS
+============================================ */
