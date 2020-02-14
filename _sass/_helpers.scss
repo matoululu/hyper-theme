@@ -81,6 +81,14 @@
   justify-content: right;
 }
 
+.justify-content--space-between {
+  -webkit-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -o-justify-content: space-between;
+  justify-content: space-between;
+}
+
 .flex-direction--row {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;

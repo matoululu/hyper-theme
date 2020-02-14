@@ -7,4 +7,4 @@ github: https://github.com/matoululu/hyper-theme
 stack: SCSS, HTML, Liquid, Firebase, JavaScript
 ---
 
-1Screen is a web-based app that allows Dungeon Masters (D&D) to write and run their campaigns all in one place. Offering a fully responsive layout, users can create an account and take their campaigns on the go across all devices. This project's goal was to make a JavaScript only application.
+Here is some placeholder text for a project. You would fill this up as needed.

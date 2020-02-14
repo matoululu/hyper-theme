@@ -1,10 +1,12 @@
-<ul>
+<ul class="no-bullets">
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url | relative_url }}">
         <h3>{{ post.title }}</h3>
-        <p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
       </a>
+
+      <p><small>Posted: {{ post.date | date: site.date_format }}</small></p>
+      <p>{{ post.excerpt | strip_html | truncatewords: 15 }}</p>
     </li>
   {% endfor %}
 </ul>
