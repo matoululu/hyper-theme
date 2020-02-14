@@ -1,2 +1,2 @@
 # hyper-theme
- An unopinionated theme geared towards developer portfolios
+ An unopinionated theme geared towards developer portfolios. Live demo: 
